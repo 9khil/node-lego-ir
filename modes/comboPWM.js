@@ -1,3 +1,13 @@
+/*
+	Combo PWM mode
+This mode is able to control: Two outputs with PWM in 7 steps forward and backward.
+This is a combo command controlling the state of both output A and B at the same time.
+Toggle bit is not verified on receiver.
+This mode has timeout for lost IR.
+
+See docs page 10 for more
+*/
+
 var mode = {
 	code: '0002',
 	outputs: ['outputA', 'outputB'],
