@@ -4,7 +4,7 @@ Todo:
 
 - add PWM control
 
-### What is is?
+### What it is?
 LEGO IR is module that returns an infrared buffer. This can then be used in combination with Tessel to control LEGO Power Functions!
 
 I've only managed to test this on Tessel as it's all I have. If you want any examples adding for other hardware or have tested it on other hardware let me know! (raise an Issue or PR!).

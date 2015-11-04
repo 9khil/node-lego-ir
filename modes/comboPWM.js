@@ -8,12 +8,23 @@ This mode has timeout for lost IR.
 See docs page 10 for more
 */
 
+/*
+	nibbles:
+
+start | a 1 C C | B B B B | A A A A | L L L L | stop
+
+a: address
+c: channel
+B: output B
+A: output a
+
+*/
+
 var mode = {
-	code: '0002',
 	outputs: ['outputA', 'outputB'],
 	moves: {
 		float: '0000',
-		forward1: '0001', 
+		forward1: '0001',
 		forward2: '0010',
 		forward3: '0011',
 		forward4: '0100',
